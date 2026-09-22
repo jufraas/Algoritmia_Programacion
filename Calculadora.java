@@ -18,7 +18,13 @@ public class Calculadora {
                 + "\n 4: Division"
                 + "\n 5: Potencia"
                 + "\n 6: Raiz cuadrada"
-                + "\n 7: Modulo");
+                + "\n 7: Modulo"
+                + "\n 8: Seno"
+                + "\n 9: Coseno"
+                + "\n 10: Tangente"
+                + "\n 11: Porcentaje"
+                + "\n 12: Logaritmo"
+            );
         op = leer.nextInt();
 
         switch (op) {
