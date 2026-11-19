@@ -1,0 +1,51 @@
+DETECTIVE: FALSE ID · Laboratorio Único Feria Gamer 2026 · Entrega #2
+Equipo VBU_TLP_CBD_JCP · Algoritmia y Programación I · NRC 4511
+
+CÓMO ABRIRLO
+  1. Descomprimir la carpeta completa (el .pde y la carpeta data van juntos y
+     la carpeta debe llamarse igual que el .pde).
+  2. Abrir Lab_Entrega2_VBU_TLP_CBD_JCP.pde con Processing 4.
+  3. La primera vez: Sketch > Importar biblioteca > Gestionar bibliotecas,
+     buscar "Sound" (The Processing Foundation) e instalarla.
+  4. Ejecutar (botón ▶).
+
+CÓMO SE JUEGA
+  Menú: clic o teclas 1 a 5. M prende o apaga el sonido. ESC vuelve al menú.
+  Historieta: ENTER o clic para avanzar.
+  Registro: nombre (solo letras), edad (6 a 99) y fecha de inicio (DD/MM/AAAA).
+            Clic o TAB para cambiar de casilla; BACKSPACE borra la casilla.
+  Cada día (7 días, 3 niveles):
+    1. Consola: hora de ingreso (1 a 12), minutos, AM/PM (clic o A / P) y horas
+       de uso (1 a 24). Calcula la hora militar de salida (+1 segundo) y la
+       fecha de salida, aunque se cruce la medianoche, el mes o el año.
+    2. Celular: elegir los 2 contenidos que se vieron hoy.
+    3. Expediente: usar la LUPA sobre el perfil (nombre, números, foto y
+       publicaciones) para hallar mínimo 2 pistas (3 en el nivel 3) y decidir A, B o C.
+    4. Veredicto: decisión SEGURA, REGULAR o RIESGOSA y qué pasó.
+    5. Resumen del día: de dónde salió cada punto, clasificación, logros y consejo.
+  El día 7 tiene 3 perfiles de "Laura": solo uno es real.
+  Al final: informe con estadísticas, gráfico de horas, clasificación, uno de
+  4 finales (bueno, regular, malo o identidad robada) y el ranking de la sesión.
+
+PUNTOS DE RIESGO (menos es mejor)
+  Tiempo de uso: más de 3 y menos de 8 h = +4 · 8 h o más = +7
+  Horario: si la sesión empieza o termina fuera de 8:00 a. m. a 8:00 p. m. = +4
+  Contenido: educativo y noticias oficiales 0 · entretenimiento 1 · creadores 2 ·
+             perfiles anónimos 3 · engaños y mensajes violentos 4
+  Decisión: segura 0 · regular 1 × nivel · riesgosa 3 × nivel
+  Clasificación con el promedio por día: menos de 5 Ejemplar · 5 a 13 Responsable ·
+  14 a 20 En riesgo · más de 20 Dependencia alta
+
+QUIÉN HIZO QUÉ (buscar "BLOQUE" en el código)
+  Camilo  : arte, menú, historieta, cómo jugar, créditos, registro, consola,
+            contenidos y expediente con la lupa
+  Valeria : casos de los días 1 a 4, puntos del contenido (L1), consejo del día (L2)
+  Tomás   : puntos, niveles, logros, informe, ranking, reinicio y casos 5 a 7 (T1 a T7)
+  Jufra   : fechas y horas, validaciones, veredicto, resumen del día, informe,
+            finales, ranking, sonido, tarjetas de perfil e integración
+
+CARPETA data
+  Imágenes de Camilo (optimizadas al tamaño en que se dibujan para que el juego
+  no se ponga lento), tarjetas Perfil1 a Perfil9, íconos op_*.png de las opciones,
+  fuentes Titulo.ttf, Escritura.ttf y CourierPrime.ttf (letra pequeña del
+  celular), y los sonidos del equipo (.wav).
